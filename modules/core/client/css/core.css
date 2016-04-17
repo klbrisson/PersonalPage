@@ -1,9 +1,20 @@
-.relative-header{
-  position: relative;
+body { padding-top: 270px; }
+
+.jumbotron {
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
+
+.navbar {
+  z-index: 0;
+}
+
 .undecorated-link:hover {
   text-decoration: none;
 }
+
+
 [ng\:cloak],
 [ng-cloak],
 [x-ng-cloak],
@@ -11,7 +22,7 @@
 .x-ng-cloak {
   display: none !important;
 }
-.header-profile-image {
+/*.header-profile-image {
   opacity: 0.8;
   height: 28px;
   width: 28px;
@@ -41,3 +52,4 @@ a:hover .header-profile-image {
 .has-error .help-inline.error-text {
   display: inline;
 }
+*/
