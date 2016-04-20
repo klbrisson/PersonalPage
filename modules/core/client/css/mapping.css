@@ -1,0 +1,16 @@
+/*.mapping {*/
+	/* fallback */
+
+	/* Safari 4-5, Chrome 1-9 */
+	/* Can't specify a percentage size? Laaaaaame. */
+	/*background: -webkit-gradient(radial, center center, 0, center center, 460, from(#073b58), to(#02142e));*/
+
+	/* Safari 5.1+, Chrome 10+ */
+	/*background: -webkit-radial-gradient(circle, #073b58, #02142e);*/
+
+	/* Firefox 3.6+ */
+	/*background: -moz-radial-gradient(circle, #073b58, #02142e);*/
+
+	/* IE 10 */
+	/*background: -ms-radial-gradient(circle, #073b58, #02142e);*/
+/*}*/
