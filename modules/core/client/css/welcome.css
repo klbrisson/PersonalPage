@@ -1,17 +1,33 @@
 
+.full-screen {
+	height: 750px;
+	padding: 100px 0;
+}
+
 .welcome {
-	background-image: url('../img/backgrounds/stary-sky.jpg');
+	background-image: url('../img/backgrounds/geometric_blue.png');
 	background-attachment: fixed;
+	font-family: "Open Sans", sans-serif;
+	white-space: nowrap;
 	background-size: 100% 100%;
+	background-color: #191e28;
 	color: #eee;
 	text-align: center;
+	padding: 200px 0;
 }
 
 .welcome h1 {
-	font-size: 80px;
+	font-size: 65px;
+	letter-spacing: 8px;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 .welcome p {
-	font-size: 30px;
+	font-size: 26px;
+}
+
+.welcome .contact-link {
+	margin: 10px;
 }
 
