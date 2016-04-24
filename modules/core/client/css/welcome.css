@@ -1,26 +1,31 @@
 
 .full-screen {
 	height: 750px;
-	padding: 100px 0;
 }
 
 .welcome {
-	background-image: url('../img/backgrounds/geometric_blue.png');
+	background-image: url('../img/backgrounds/background-2.png');
 	background-attachment: fixed;
 	font-family: "Open Sans", sans-serif;
 	white-space: nowrap;
-	background-size: 100% 100%;
+	background-size: 100% 100%; 
 	background-color: #191e28;
-	color: #eee;
+	color: #fff;
 	text-align: center;
-	padding: 200px 0;
+	padding: 150px 0;
 }
 
 .welcome h1 {
-	font-size: 65px;
-	letter-spacing: 8px;
-	font-weight: 400;
-	text-transform: uppercase;
+	font-size: 75px;
+	font-weight: 500;
+}
+
+.welcome h1 span {
+	/*color: #ffc95e;*/
+	font-size: 130px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 20px;
 }
 
 .welcome p {
@@ -28,6 +33,93 @@
 }
 
 .welcome .contact-link {
-	margin: 10px;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
 }
+
+.welcome .contact-link a {
+	left: 0px;
+	width: 100%;
+    position: absolute;
+	bottom: -25px;
+	-webkit-transition: bottom 400ms; /* Safari */
+    -moz-transition: bottom 400ms;
+    -ms-transition: bottom 400ms;
+    -o-transition: bottom 400ms;
+    transition: bottom 400ms;
+}
+
+.welcome .contact-link:hover a {
+	display: block;
+    bottom: 0px;
+}
+
+.welcome .label {
+	margin-top: 5px;
+    display: block;
+	font-size: 15px;
+	width: 100%;
+}
+
+.welcome .contact-link:hover .label {
+    color: #ffc95e;
+}
+
+.welcome .logo {
+	display: block;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	background-size: 100% 100%; 
+}
+
+.welcome .github {
+	background-image: url('../img/logos/github.png');
+
+}
+
+.welcome .contact-link:hover .github {
+	background-image: url('../img/logos/github--orange.png');
+}
+
+.welcome .linkedin {
+	background-image: url('../img/logos/linked-in.png');
+
+}
+
+.welcome .contact-link:hover .linkedin {
+	background-image: url('../img/logos/linked-in--orange.png');
+}
+
+.welcome .email {
+	background-image: url('../img/logos/email.png');
+
+}
+
+.welcome .contact-link:hover .email {
+	background-image: url('../img/logos/email--orange.png');
+}
+
+/*.contact-link img {
+	left: 35px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.contact-link:hover img {
+	bottom: 30px;
+}
+
+.contact-link span {
+	width: 100%;
+    position: absolute;
+	bottom: -30px;
+	font-size: 15px
+}*/
+
+
+
 
