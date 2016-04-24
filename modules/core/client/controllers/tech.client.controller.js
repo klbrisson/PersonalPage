@@ -8,7 +8,7 @@
   WellController.$inject = ['$scope', '$interval'];
 
   function WellController($scope, $interval) {
-    var imgs = ['javascript', 'html-5', 'css-3', 'c-sharp', 'angular-js', 'jquery-logo', 'd3-js', 'grunt-white', 'mongo-db', 'node-js', 'sass'];
+    var imgs = ['javascript--transparent', 'html5--transparent', 'css3--transparent', 'csharp--transparent', 'angular-js', 'jquery--transparent', 'd3js--transparent', 'grunt--transparent', 'mongodb--transparent', 'nodejs--transparent', 'sass'];
     var images = $scope.images = [];
     var hidden = [];
 
