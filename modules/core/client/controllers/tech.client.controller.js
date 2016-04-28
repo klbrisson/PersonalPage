@@ -8,7 +8,7 @@
   TechController.$inject = ['$scope', '$interval'];
 
   function TechController($scope, $interval) {
-    var imgs = ['javascript--transparent', 'html5--transparent', 'css3--transparent', 'csharp--transparent', 'angular-js', 'jquery--transparent', 'd3js--transparent', 'grunt--transparent', 'mongodb--transparent', 'nodejs--transparent', 'sass'];
+    var imgs = ['javascript--transparent', 'HTML5--transparent', 'CSS3--transparent', 'csharp--transparent', 'angular-js', 'jquery--transparent', 'd3js--transparent', 'grunt--transparent', 'mongodb--transparent', 'nodejs--transparent', 'sass'];
     var images = $scope.images = [];
     var hidden = [];
 
