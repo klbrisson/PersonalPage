@@ -77,12 +77,12 @@
 }
 
 .welcome .github {
-	background-image: url('../img/logos/github.png');
+	background-image: url('../img/logos/GitHub.png');
 
 }
 
 .welcome .contact-link:hover .github {
-	background-image: url('../img/logos/github--orange.png');
+	background-image: url('../img/logos/GitHub--orange.png');
 }
 
 .welcome .linkedin {
