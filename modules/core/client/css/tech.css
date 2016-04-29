@@ -43,6 +43,8 @@
     -o-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     position: relative;
+    -webkit-backface-visibility: hidden;
+    outline: 1px solid transparent
 } 
  
 .animate.ng-leave,
